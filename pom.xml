@@ -15,6 +15,9 @@
 	<sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
 	<sonar.jacoco.reportPath>${project.build.directory}/coverage-reports/jacoco-ut.exec</sonar.jacoco.reportPath>
 	<jacoco-maven-plugin.version>0.7.4.201502262128</jacoco-maven-plugin.version>
+	<sonar.host.url>http://13.127.171.21:9000/</sonar.host.url>
+        <sonar.login>admin</sonar.login>
+        <sonar.password>admin</sonar.password>
 </properties>
 
   <dependencies>
@@ -27,7 +30,7 @@
 </dependencies>
 <distributionManagement>
   <repository>
-    <id>swamy</id>
+    <id>admin</id>
     <url>http://192.168.159.132:8081/nexus/content/repositories/swamy</url>
   </repository>
 </distributionManagement>
