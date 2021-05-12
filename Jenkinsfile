@@ -10,7 +10,7 @@ pipeline {
   }
   post {
     always {
-      mail to: swamibandaru3@gmail.com, subject: 'The Pipeline failed :('
+      mail to: narayana.vist@gmail.com, subject: 'The Pipeline failed :('
     }
   }
 }
