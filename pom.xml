@@ -31,8 +31,13 @@
 <distributionManagement>
   <repository>
     <id>admin</id>
-    <url>http://192.168.159.132:8081/nexus/content/repositories/swamy</url>
+    <url>http://13.233.146.202:8081/repository/tech-release/</url>
   </repository>
+	
+<snapshotRepository>
+<id>nexus</id>
+<url>http://13.233.146.202:8081/repository/tech-snapshot/</url>
+</snapshotRepository>
 </distributionManagement>
 
  
