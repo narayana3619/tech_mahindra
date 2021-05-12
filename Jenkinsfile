@@ -23,6 +23,7 @@ node ('master) {
       }
       
       stage('tomcat'){
+            sh "scp -o 
       
         
       }
