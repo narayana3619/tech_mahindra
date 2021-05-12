@@ -1,2 +1,46 @@
 pipeline{
 agent any 
+tools {
+maven 'MAVEN3.8.1'
+}
+
+
+stages {
+stage('clone'){
+steps{
+sh "git clone 
+}
+}
+
+stage('clean'){
+steps{
+sh "mvn clean"
+}
+}
+stage('build'){
+steps{
+sh "mvn build"
+}
+}
+stage('quality'){
+steps{
+sh "mvn sonar:sonar"
+}
+}
+}
+stage('deploy'){
+steps{
+sh "mvn deploy"
+}
+}
+stage(tomcat){
+steps{
+sh "scp -o "
+}
+}
+post{
+always{
+
+}
+}
+}
