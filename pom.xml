@@ -30,7 +30,7 @@
 </dependencies>
 <distributionManagement>
   <repository>
-    <id>admin</id>
+    <id>nexus</id>
     <url>http://13.233.146.202:8081/repository/tech-release/</url>
   </repository>
 	
