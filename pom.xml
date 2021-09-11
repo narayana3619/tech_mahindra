@@ -30,7 +30,7 @@
 <distributionManagement>
   <repository>
     <id>swamy</id>
-    <url>http://192.168.159.132:8081/nexus/content/repositories/swamy</url>
+    <url>http://13.233.127.48:8081/repository/techm/</url>
   </repository>
 </distributionManagement>
 
