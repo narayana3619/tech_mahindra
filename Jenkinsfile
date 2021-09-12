@@ -30,4 +30,3 @@ node {
         emailext body: 'build over scripted way', subject: 'build-over scripted way', to: 'swamy.visit@gmail.com'
     }
 }
-
