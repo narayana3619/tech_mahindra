@@ -29,7 +29,7 @@
 <distributionManagement>
   <repository>
     <id>tech</id>
-    <url>http://35.91.122.25:8081/repository/tech/</url>
+    <url>http://34.216.150.243:8081/repository/tech/</url>
   </repository>
 </distributionManagement>
 
