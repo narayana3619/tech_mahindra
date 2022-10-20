@@ -7,7 +7,8 @@
   <version>3.0.2</version>
      <name>mahindra Maven Webapp</name>
   <url>http://maven.apache.org</url>
-  	
+  
+	
   <properties>
     <build.number>${project.version}</build.number>
 	<sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
