@@ -87,6 +87,8 @@
 	<!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
 
 
+	
+	
 </plugins>
 </pluginManagement>
 </build>
